@@ -1,5 +1,5 @@
 CREATE TABLE AspNetUsers(
-	Id int GENERATED ALWAYS AS IDENTITY NOT NULL,
+	Id int GENERATED ALWAYS AS IDENTITY NOT NULL PRIMARY KEY,
 	UserName text NULL,
 	PasswordHash text NULL,
 	SecurityStamp text NULL,
